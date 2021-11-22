@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 import { useAlert } from 'react-alert'
 import { useDispatch, useSelector } from 'react-redux'
-import { useNavigate, useParams } from 'react-router'
+import { useNavigate, useParams } from 'react-router-dom'
 import { clearErrors, getUserDetails, updateUser } from '../../redux/actions/authActions'
 import { UPDATE_USER_RESET } from '../../redux/actionTypes/authActionTypes'
 import MetaData from '../layout/MetaData'
